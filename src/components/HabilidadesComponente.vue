@@ -7,10 +7,18 @@ import img5 from '/src/components/icons/sql.svg';
 import img6 from '/src/components/icons/react.svg';
 import img7 from '/src/components/icons/vue.svg';
 import img8 from '/src/components/icons/node.svg';
+import img9 from '/src/components/icons/django.svg';
+import img10 from '/src/components/icons/bootstrap.svg';
 import img11 from '/src/components/icons/git.svg';
+import img12 from '/src/components/icons/docker.svg';
+import img13 from '/src/components/icons/cypress.svg';
+import img14 from '/src/components/icons/figma.svg';
 import img15 from '/src/components/icons/visual.svg';
+import img16 from '/src/components/icons/mongo.svg';
 import img17 from '/src/components/icons/mysql.svg';
-
+import img18 from '/src/components/icons/postgres.svg';
+import img19 from '/src/components/icons/arg.svg';
+import img20 from '/src/components/icons/eeuu.svg';
 
 //Se importa ref de vue para poder usarlo
 import { ref } from 'vue';
@@ -43,7 +51,6 @@ const habilidades = ref([
     {
         id: 4, nombre: 'Bases de Datos', habilidades: [
             { id: 2, nombre: 'MySQL', nivel: 'Intermedio', icono: img17 },
-            { id: 3, nombre: 'PostgreSQL', nivel: 'Intermedio', icono: img18 }
         ]
     },
     {
